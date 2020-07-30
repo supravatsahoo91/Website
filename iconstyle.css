@@ -1,0 +1,87 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html,body
+{
+	height: 100%;
+
+}
+.widthbg
+{
+	height: 100%;
+	background-image: url("b1.jpg");
+	background-position: center;;
+	background-size: cover;
+}
+.icons
+{
+	position: fixed;
+	top: 30%;
+	left: 0%;
+	width: 220px;
+	display: flex;
+	flex-direction: column;
+}
+.icons a
+{
+	text-decoration: none;;
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+	margin: 2px;
+	text-align: right;
+	border-radius: 0px 50px 50px 0px;
+	transform: translate(-150px, 0px);
+	transition: all 0.5s;
+}
+.icons a:hover
+{
+	transform: translate(0px, 0px);
+}
+.icons a i
+{
+	margin-left: 25px;
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+.icons a:hover i
+{
+	transform: rotate(360deg);
+}
+.icons a i.fa-facebook-f
+{
+	color: #2c80d3;
+}
+.icons a i.fa-youtube
+{
+	color: #fa0910;
+}
+.icons a i.fa-twitter
+{
+	color: #53c5ff;
+}
+.facebook
+{
+	background-color: #2c80d3;
+	color: white;
+}
+.youtube
+{
+	background-color: #fa0910;
+	color: white;
+}
+.twitter
+{
+	background-color: #53c5ff;
+	color: white;
+}
+
